@@ -1,0 +1,106 @@
+/* Start CSS */
+/*Whole Website has a dark theme to relate to the chosen film (Dark Knight) */
+
+/* Style for the body and text so the reader can correctly the information on the website */
+body {
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+/* These edits are in place so that the title and key bits of information stand out to the reader while they are viewing the website */
+h1 {
+  background-color: darkblue;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 2px outset;
+}
+body h1 {
+  color: gold;
+  font-family: sans-serif;
+}
+/* Dark Knight Poster - I used this code so the poster doesn't ruin the positioning of the text and my video */
+img {
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  border: 2px outset;
+  max-width: 50%;
+  max-height: 450px;
+}
+/* Simple edit to keep consistency with the font size and style */
+h2 {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+/* I used this to continue the look of my webpage and to also section off the link to the two pages */
+nav {
+  background-color: darkblue;
+  margin: 20px;
+  padding: 10px;
+  border: 2px;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+/* Boxing off information is important as its easier the follow the information on the website in sections */
+Section {
+  background-color: darkblue;
+  margin: 20px;
+  padding: 10px;
+  border: 2px outset;
+  text-align: center;
+}
+/* Positioning and style of the text for the cast information */
+.interviews {
+  text-align: center;
+}
+.Trailer {
+  border: 3px outset;
+  background-color: #DarkBlue;
+  text-align: center;
+  color: white;
+}
+/* Links to more info and webs linked to the film to fit the critea of having a link to another website */
+footer {
+  background-color: darkblue;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 2px outset;
+  margin: 20px;
+  padding: 10px;
+}
+/* These three are named into specific groups so I am able to edit one section at a time */
+.Title {
+  background-color: darkblue;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 2px outset;
+}
+.Menu {
+  background-color: darkblue;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 2px outset;
+}
+
+.label {
+  font-weight: bold;
+  text-align: left;
+}
+/* Specific colouring to make the text stand out to the white */
+nav a {
+  color: gold;
+}
+a {
+  color: gold;
+  text-align: center;
+}
+li {
+  text-align: center;
+}
